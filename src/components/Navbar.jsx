@@ -57,7 +57,7 @@ const Navbar = ({ active }) => {
             <span className="text-lg">~</span>
           </div>
           <div className="bg-gradient-to-r from-[#00B4D8] to-cyan-200 bg-clip-text text-lg font-extrabold tracking-wide text-transparent sm:text-xl">
-            Marine Data AI
+            SeaNopsis
           </div>
         </NavLink>
 
@@ -145,7 +145,7 @@ const Navbar = ({ active }) => {
                     <span className="text-lg">~</span>
                   </div>
                   <div className="bg-gradient-to-r from-[#00B4D8] to-cyan-200 bg-clip-text text-lg font-extrabold tracking-wide text-transparent">
-                    Marine Data AI
+                    SeaNopsis
                   </div>
                 </div>
                 <motion.button

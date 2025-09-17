@@ -37,12 +37,12 @@ const About = () => {
           <div className="text-white/90">Team</div>
           <div className="mt-4 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {[
-              { name: 'Mr. Saurabh Patil', role: 'Web Dev' },
+              { name: 'Mr. Saurabh Patil', role: 'Frontend Developer' },
               { name: 'Mr. Setu Gangan', role: 'ML Engineer' },
-              { name: 'Miss Rudrani Rane', role: 'ML Engineer' },
-              { name: 'Mr. Kshitij Tardalkar', role: 'Gen Ai Expert' },
-              { name: 'Miss Esha Mj', role: 'Backend Dev' },
-              { name: 'Miss Raunak M', role: 'Diversity Hire' },
+              { name: 'Miss Rudrani Rane', role: 'ML Engineer, Researcher' },
+              { name: 'Mr. Kshitij Tardalkar', role: 'Backend Developer' },
+              { name: 'Miss Esha Mj', role: 'Data Visualization' },
+              { name: 'Miss Raunak M', role: 'Documentation and Insights' },
             ].map((m) => (
               <motion.div
                 key={m.name}

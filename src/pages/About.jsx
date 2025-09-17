@@ -5,7 +5,7 @@ const About = () => {
   return (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="mx-auto max-w-7xl px-6 py-12">
       <div className="overflow-hidden rounded-3xl border border-white/15 bg-white/10 shadow-2xl backdrop-blur-xl">
-        <div className="h-72 w-full bg-[url('/images/ocean-hero.jpg')] bg-cover bg-center" />
+        <div className="h-72 w-full bg-[url('/images/SeaNopsis.png')] bg-cover bg-center" />
         <div className="p-8">
           <h1 className="text-3xl font-extrabold text-white/90">About SeaNopsis</h1>
           <p className="mt-3 max-w-3xl text-cyan-100/85">
@@ -22,11 +22,9 @@ const About = () => {
           viewport={{ once: true }}
           className="rounded-2xl border border-white/15 bg-white/10 p-6 shadow-xl backdrop-blur-xl"
         >
-          <div className="text-white/90">Timeline (placeholder)</div>
+          <div className="text-white/90">Timeline</div>
           <ul className="mt-3 space-y-3 text-sm text-cyan-100/80">
-            <li className="rounded-lg border border-white/10 bg-white/5 p-3">2024 — Project Inception</li>
-            <li className="rounded-lg border border-white/10 bg-white/5 p-3">2025 — Beta Release</li>
-            <li className="rounded-lg border border-white/10 bg-white/5 p-3">2026 — Nationwide Rollout</li>
+            <li className="rounded-lg border border-white/10 bg-white/5 p-3">2025 — Working for Smart India Hackathon</li>
           </ul>
         </motion.div>
 
@@ -39,12 +37,12 @@ const About = () => {
           <div className="text-white/90">Team</div>
           <div className="mt-4 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {[
-              { name: 'Dr. A. Nair', role: 'Oceanographer' },
-              { name: 'Dr. R. Menon', role: 'Fisheries Scientist' },
-              { name: 'Dr. S. Kapoor', role: 'Molecular Biologist' },
-              { name: 'Dr. M. Rao', role: 'Data Scientist' },
-              { name: 'Dr. P. Gupta', role: 'Geospatial Analyst' },
-              { name: 'Dr. L. Fernandes', role: 'Biodiversity Expert' },
+              { name: 'Mr. Saurabh Patil', role: 'Web Dev' },
+              { name: 'Mr. Setu Gangan', role: 'ML Engineer' },
+              { name: 'Miss Rudrani Rane', role: 'ML Engineer' },
+              { name: 'Mr. Kshitij Tardalkar', role: 'Gen Ai Expert' },
+              { name: 'Miss Esha Mj', role: 'Backend Dev' },
+              { name: 'Miss Raunak M', role: 'Diversity Hire' },
             ].map((m) => (
               <motion.div
                 key={m.name}
